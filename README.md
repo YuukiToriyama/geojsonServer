@@ -1,0 +1,2 @@
+# geojsonServer
+GitHubActionsを用いた簡易的geojsonサーバーです
