@@ -1,0 +1,25 @@
+{
+	"name": "geojsonserver",
+	"version": "1.0.0",
+	"description": "GitHubActionsを用いた簡易的geojsonサーバーです",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YUUKIToriyama/geojsonServer.git"
+	},
+	"keywords": [
+		"geojson"
+	],
+	"author": "YUUKIToriyama",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/YUUKIToriyama/geojsonServer/issues"
+	},
+	"homepage": "https://github.com/YUUKIToriyama/geojsonServer#readme",
+	"dependencies": {
+		"csv2geojson": "^5.1.1"
+	}
+}
