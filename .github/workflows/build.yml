@@ -3,7 +3,7 @@ name: Build and Release on GitHub Page
 on:
   push:
     branches:
-      - master
+      - main
 
 # ジョブの定義
 jobs:
