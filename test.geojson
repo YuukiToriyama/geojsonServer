@@ -1,0 +1,35 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"landmark": "経済産業省",
+				"address": "東京都千代田区霞が関1-3-1",
+				"description": "これはテストです"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					139.752558,
+					35.673944
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"landmark": "京都府庁",
+				"address": "京都府京都市上京区下立売通新町西入薮ノ内町",
+				"description": "これはテストです"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					135.755556,
+					35.021389
+				]
+			}
+		}
+	]
+}
