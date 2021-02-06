@@ -30,6 +30,21 @@
 					35.021389
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"landmark": "広島県庁",
+				"address": "広島市中区基町10-52",
+				"description": "これはテストです"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					132.459611,
+					34.396556
+				]
+			}
 		}
 	]
 }
