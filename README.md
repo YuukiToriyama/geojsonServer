@@ -1,3 +1,5 @@
+![Build and Release on GitHub Page](https://github.com/YUUKIToriyama/geojsonServer/workflows/Build%20and%20Release%20on%20GitHub%20Page/badge.svg)
+
 # geojsonServer
 GitHubActionsを用いた簡易的geojsonサーバーです
 
