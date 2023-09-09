@@ -1,5 +1,6 @@
 plugins {
     kotlin("multiplatform") version "1.9.10"
+    kotlin("plugin.serialization") version "1.9.10"
 }
 
 repositories {
@@ -10,6 +11,14 @@ kotlin {
     macosX64("native") {
         binaries {
             executable()
+        }
+    }
+    sourceSets {
+        val nativeMain by getting {
+            dependencies {
+                // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-json
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+            }
         }
     }
 }
